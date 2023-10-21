@@ -1,11 +1,11 @@
 ---
-title: 'Two Forms of Pre-rendering'
-date: '2022-01-01'
+title: '初のビルド！！'
+date: '2023-10-21'
 ---
 
-Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
+今日やっとのことで、このサイトを公開できた！: **React**　と **Next.js**を使用して構築。英語学習を続けていたおかげで、英語の語順で読み解いてみた。詰まるところは、流石に辛いので**Google翻訳**を使用。
+- **React** Create user interfaces from components. Write components with code and markup. Add interactivity wherever you need it. ということで、便利なJSライブラリです。
+- **NEXT.js** The React Framework for the Web. Built on a foundation of fast, production-grade tooling. The framework of choice when it matters.　ということで、こちらはReactアプリケーションを構築するためのフレームワークです。
 
-- **Static Generation** is the pre-rendering method that generates the HTML at **build time**. The pre-rendered HTML is then _reused_ on each request.
-- **Server-side Rendering** is the pre-rendering method that generates the HTML on **each request**.
-
-Importantly, Next.js lets you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
+現在の主流になりつつある技術スタックであり、海外ではどんどん活用されています。
+日本では、まだ大流行とまでにはなっていないが、どんどん変わっていくだろうと思われます。
